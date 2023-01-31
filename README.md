@@ -1,8 +1,10 @@
 # Artifex-OPMpy
 ## A python package to connect to the [Artifex OPM500 optical power monitor](https://artifex-engineering.com/de/instrumente/optische-leistungsmonitore/opm500/)
 Currently **WIP** (wavelength calibration and power can be retrieved), some features are not yet implemented.
-## Needs (tested with):
+## Requirements:
 ```
+package     (tested version)
+
 regex       ( 2021.4.4 )
 numpy       ( 1.20.1 )
 pyserial    ( 3.5 )

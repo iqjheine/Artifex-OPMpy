@@ -13,3 +13,6 @@ pyserial    ( 3.5 )
   
 ## How to use 
 Check main()
+
+## Feature Requests
+To request features, you can open an issue.

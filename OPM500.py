@@ -240,8 +240,8 @@ class OPM500:
         # pass
     def dbm(self, power_lin):
         return 10*np.log10(power_lin/(1e-3))
-if __name__ == "__main__":
 
+def main():
     opm = OPM500("COM6")
     #opm.identify()
     opm.wavelengthcal("1950")
@@ -250,3 +250,7 @@ if __name__ == "__main__":
     opm.autogain(True)
     while 1:
         print(f"{opm.power():.2E}"+"W")
+
+
+if __name__ == "__main__":
+    main()
